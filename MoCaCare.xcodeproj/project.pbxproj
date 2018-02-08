@@ -1516,7 +1516,7 @@
 				TargetAttributes = {
 					F35D3DE31F5E775C00618D92 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AHK44F62KZ;
+						DevelopmentTeam = WGT9H96SPZ;
 						ProvisioningStyle = Automatic;
 					};
 					F35D3DFC1F5E775D00618D92 = {
@@ -1927,7 +1927,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AHK44F62KZ;
+				DEVELOPMENT_TEAM = WGT9H96SPZ;
 				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = ./MoCaCare/PrefixHeader.pch;
 				INFOPLIST_FILE = MoCaCare/Info.plist;
@@ -1943,7 +1943,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AHK44F62KZ;
+				DEVELOPMENT_TEAM = WGT9H96SPZ;
 				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = ./MoCaCare/PrefixHeader.pch;
 				INFOPLIST_FILE = MoCaCare/Info.plist;

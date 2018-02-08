@@ -14,9 +14,9 @@
 
 #pragma mark - 正式线
 /// 接口地址通用前缀
-static NSString *baseAPIStr = @"http://192.168.1.89:8000/";
+static NSString *baseAPIStr = @"http://192.168.1.116:8000/";
 /// 图片地址通用前缀
-static NSString *baseIMGStr = @"http://192.168.1.89:8000/";
+static NSString *baseIMGStr = @"http://192.168.1.116:8000/";
 
 typedef enum {
     UploadFileTypeImage = 0,
@@ -68,7 +68,7 @@ typedef void (^FailureBlock)();
 /*
  * 上传图片
  * @param imgData :文件主体
- * @param imageName :文件名 
+ * @param imageName :文件名
  * @param success :成功回调
  * @param failure :失败回调
  */
@@ -87,14 +87,14 @@ typedef void (^FailureBlock)();
 
 #pragma mark - 数据处理
 /*
- * 简单处理返回数据 
+ * 简单处理返回数据
  * @param responseObject :要处理的数据
  * @return 处理好的数据
  */
 + (NSDictionary *)getResultWithResponseObject:(id)responseObject;
 
 /*
- * 验证数据 
+ * 验证数据
  * @param result :要验证的数据
  * @param log :是否打印成功信息标识符
  * @param failure :失败回调

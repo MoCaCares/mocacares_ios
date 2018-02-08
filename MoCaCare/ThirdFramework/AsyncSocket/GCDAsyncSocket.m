@@ -2061,8 +2061,8 @@ enum GCDAsyncSocketConfig
 	{
 		if (errPtr)
 		{
-			NSString *msg = @"Attempting to connect while connected or accepting connections. Disconnect first.";
-			*errPtr = [self badConfigError:msg];
+//            NSString *msg = @"Attempting to connect while connected or accepting connections. Disconnect first.";
+//            *errPtr = [self badConfigError:msg];
 		}
 		return NO;
 	}
@@ -2156,8 +2156,8 @@ enum GCDAsyncSocketConfig
 	{
 		if (errPtr)
 		{
-			NSString *msg = @"Attempting to connect while connected or accepting connections. Disconnect first.";
-			*errPtr = [self badConfigError:msg];
+//            NSString *msg = @"Attempting to connect while connected or accepting connections. Disconnect first.";
+//            *errPtr = [self badConfigError:msg];
 		}
 		return NO;
 	}
