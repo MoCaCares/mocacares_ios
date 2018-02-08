@@ -9,6 +9,7 @@
 #import "SettingTVC.h"
 #import "AccountLoginTVC.h"
 #import "MainTabBarController.h"
+#import "MySocket.h"
 
 @implementation SettingTVC
 
@@ -52,6 +53,7 @@
     UIAlertAction *sureAc = [UIAlertAction actionWithTitle:@"confirm" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [ModelUser logOut];
         [AccountLoginTVC display];
+        [MySocket disconnect];
     }];
     [alertController addAction:sureAc];
     UIAlertAction *cancelAc = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:nil];
