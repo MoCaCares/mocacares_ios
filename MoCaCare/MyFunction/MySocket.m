@@ -66,12 +66,12 @@
     [SVProgressHUD dismiss];
     // 发送登录信息
     NSLog(@"socket服务创建成功，发送登录信息");
-    NSString *uid = [ModelUser defaultUser].id;
-    if (!M_CheckStrNil(uid)) {
+    NSString *sessionKey = [ModelUser defaultUser]._token;
+    if (!M_CheckStrNil(sessionKey)) {
         NSLog(@"找不到用户id,可能是游客模式,不连接socket");
         return;
     }
-    NSDictionary *dict = @{@"uid": uid};
+    NSDictionary *dict = @{@"sessionKey": sessionKey};
     NSError *error;
     NSData *data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:&error];
     if (error) {
