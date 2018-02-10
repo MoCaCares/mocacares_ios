@@ -13,8 +13,8 @@
  * Security.framework
  */
 
-#define SocketHost @"47.74.179.161"
-#define SocketPort 8282
+#define SocketHost @"159.65.6.167"//@"47.74.179.161"
+#define SocketPort 4000//8282
 #define SocketAutoTag 1000
 #define SocketBaseTag 2000
 
