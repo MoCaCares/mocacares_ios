@@ -17,7 +17,7 @@
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = 60.0;
     
-    self.lblRow0.text = @"Receive only meeages from users I follow";
+    self.lblRow0.text = @"Receive only messages from users I follow";
     
     [self setLableStyle:self.lblRow0 cornerRadius:4.0];
     self.imgVs = @[self.imgVRow0];
