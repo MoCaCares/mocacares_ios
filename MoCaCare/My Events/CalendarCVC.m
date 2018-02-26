@@ -96,7 +96,7 @@
     int week = (day + firstday) % 7 - 1;
     
     NSMutableArray<NSString *> *days = [NSMutableArray array];
-    NSArray *arr = @[@"Sun", @"Mon", @"Thes", @"Wed", @"Thur", @"Fri", @"Sat"];
+    NSArray *arr = @[@"Sun", @"Mon", @"Tues", @"Wed", @"Thur", @"Fri", @"Sat"];
 //    arr = @[@"7", @"1", @"2", @"3", @"4", @"5", @"6"];
     
     for (int i = -week; i < 7 - week; i ++) {
