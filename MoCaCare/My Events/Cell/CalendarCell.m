@@ -161,6 +161,7 @@
     if (flag) {
         NSLog(@"%d/%d\t%d/%d\t%d/%d", first_month, first_day, event_month, event_day, last_month, last_day);
     }
+    return YES;
     return flag;
 }
 

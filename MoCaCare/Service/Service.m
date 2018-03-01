@@ -144,7 +144,7 @@
         NSString *fileType;
         if (type == UploadFileTypeImage) {
             name = @"image";
-            fileType = @"image/jepg";
+            fileType = @"image/jpeg";
             if (inputName) {
                 fileName = [NSString stringWithFormat:@"%@_%@.jpg", inputName, fileName];
             } else {

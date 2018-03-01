@@ -18,6 +18,7 @@ static NSString *baseAPIStr = @"http://192.168.1.116:8000/";
 /// 图片地址通用前缀
 static NSString *baseIMGStr = @"http://192.168.1.116:8000/";
 
+
 typedef enum {
     UploadFileTypeImage = 0,
     UploadFileTypeVideo
