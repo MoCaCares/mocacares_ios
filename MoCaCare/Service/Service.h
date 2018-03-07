@@ -14,9 +14,9 @@
 
 #pragma mark - 正式线
 /// 接口地址通用前缀
-static NSString *baseAPIStr = @"http://192.168.1.116:8000/";
+static NSString *baseAPIStr = @"http://159.65.6.167:80/";
 /// 图片地址通用前缀
-static NSString *baseIMGStr = @"http://192.168.1.116:8000/";
+static NSString *baseIMGStr = @"http://159.65.6.167:80/";
 
 
 typedef enum {
